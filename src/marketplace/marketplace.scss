@@ -1,0 +1,159 @@
+#market {
+  padding: 6rem 0;
+}
+
+.marketplace-header {
+  height: 60px;
+  // background: -webkit-linear-gradient(25deg, #c9864f 0%, #f5c89e 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.marketplace-header > div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.marketplace-header img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+// .marketplace-header fill {
+//   color: white;
+// }
+
+.marketplace-header p {
+  // all: initial;
+  color: #f5c89e;
+  cursor: pointer;
+}
+
+.marketplace h2 {
+  font-weight: 400;
+  background: -webkit-linear-gradient(
+    25deg,
+    hsl(27, 53%, 55%) 0%,
+    hsl(29, 81%, 79%) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.itemsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-gap: 1.5rem;
+}
+
+.itemContainer {
+  // margin: 8px;
+  // width: calc(25% - 20px);
+  height: 100%;
+  // height: 320px;
+  border: 2px solid hsl(27, 53%, 55%);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  // padding-bottom: 20px;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  // height: 50%;
+}
+
+.itemContainer > img {
+  max-width: 100px;
+  // height: 50%;
+  display: flex;
+  margin: 3rem auto;
+}
+
+.itemContainer h4 {
+  margin: 0.5rem 0em;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+
+  background: -webkit-linear-gradient(
+    25deg,
+    hsl(27, 53%, 55%) 0%,
+    hsl(29, 81%, 79%) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.itemContainer button {
+  font-family: Glory;
+  font-family: 400;
+  cursor: pointer;
+  padding: 0.2rem 1rem;
+  margin: 2rem auto 1rem auto;
+}
+
+.priceInfo > p {
+  all: initial;
+  font-size: 0.9rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: white;
+  // margin: auto;
+}
+
+.priceInfo {
+  flex: 1;
+}
+
+.marketplace .line {
+  width: 100%;
+  // height: 47px;
+  border-bottom: 1px solid #c9864f;
+  margin-bottom: 10px;
+  // position: absolute;
+}
+
+.priceInfo > div {
+  margin-top: 10px;
+}
+
+.priceInfo > div p {
+  all: initial;
+  font-family: Glory !important;
+  font-size: 1.7rem;
+  background: -webkit-linear-gradient(
+    25deg,
+    hsl(27, 53%, 55%) 0%,
+    hsl(29, 81%, 79%) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.priceInfo > div h6 {
+  all: initial;
+  margin-top: 4%;
+  margin-left: 5px;
+  font-size: 0.7rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: white;
+}
+
+#c {
+  width: 620px;
+  height: 620px;
+  display: block;
+  margin: 0 auto;
+  margin: calc(50vh - 310px) auto;
+}
