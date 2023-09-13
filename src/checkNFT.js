@@ -18,7 +18,7 @@ import {
   useRouteMatch,
 } from "react-router-dom";
 
-export default function Marketplace() {
+export default function CheckNFT() {
   const [sellModalOpen, setSellModalOpen] = useState(false);
   let history = useHistory();
   let match = useRouteMatch();
